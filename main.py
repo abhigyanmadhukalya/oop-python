@@ -49,7 +49,7 @@ item2.has_numpad = True
 for i in Item.Items:
     i.apply_discount()
     print(
-        f"The price of {i.name} after appplying the discount is ${format_float(i.price)}"
+        f"The price of {i.name} after applying the discount is ${format_float(i.price)}"
     )
 
 print("-----------------------")
